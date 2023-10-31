@@ -1,0 +1,44 @@
+html {
+	text-align: center;
+}
+form {
+	/* display: flex;
+	justify-content: center;
+	align-items: center;
+	align-self: center;
+	flex-direction: column;
+	text-align: center; */
+	border: 1px black solid;
+	width: 500px;
+	height: 500px;
+	margin: auto;
+	padding: 50px 0 50px 0;
+	/* background-color: burlywood; */
+	/* border-radius: 17px; */
+}
+input {
+	padding: 15px 10px;
+	width: 60%;
+}
+#register {
+	padding: 10px 20px;
+	background-color: aqua;
+}
+#register:hover {
+	cursor: pointer;
+	background-color: greenyellow;
+	color: crimson;
+	outline: none;
+}
+a:hover {
+	color: purple;
+}
+a:link{
+    color:green;
+}
+a:visited {
+	color: red;
+}
+a:active{
+    color: goldenrod;
+}

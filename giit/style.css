@@ -1,0 +1,71 @@
+h1,
+#text,
+.container {
+	color: blue;
+	border: 1px solid black;
+
+	/* Styles for border
+    ---solid
+    ---dashed
+    ---dotted
+    ---double
+    ---groove
+    ---ridge
+    ---inset
+    ---outset
+    ---none
+    ---hidden */
+
+	/* padding: 20px; */
+	margin: 50px;
+
+	/* padding-left: ;
+    padding-right: ;
+    padding-top: ;
+    padding-bottom: ; */
+
+	padding: 50px 0 20px 100px;
+}
+/* p::after {
+	content: ">>";
+	color: red;
+}
+p::before {
+	content: "<<";
+	color: red;
+} */
+p::first-letter {
+	font-size: 30px;
+	color: red;
+}
+p::first-line {
+	font-size: 30px;
+	color: red;
+}
+/* CSS BOX MODEL */
+
+/* ALL CSS PSEUDO CLASSES */
+/* :active
+:checked
+:disabled
+:empty
+:enabled
+:first-child
+:first-of-type
+:focus
+:hover
+:last-child
+:last-of-type
+:link
+:nth-child(n)
+:nth-of-type(n)
+:visited
+ */
+
+/* ALL PSEUDO ELEMENTS */
+/* 
+ ::after
+ ::before
+ ::first-letter
+ ::first-line
+ ::selection */
